@@ -3,13 +3,13 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='bg-[#00001a] flex flex-col lg:flex-row items-center justify-center gap-16 py-10 px-5'>
-        <div className='bg-white rounded flex flex-col items-start px-10 py-8'>
+    <section id='contact' className='bg-[#00001a] flex flex-col lg:flex-row items-center justify-center gap-16 py-10 px-5'>
+        <div className='bg-white  rounded flex flex-col items-start lg:px-10 px-3 py-8'>
             <h1 className='text-3xl capitalize max-w-xl text-center text-[#391400] font-bold'>Get in touch</h1>
             <form className='flex flex-col mt-3 gap-4 items-end' action="">
-                <input type="text" className='border-2 border-[#F3D1BF] w-xl px-4 py-2 rounded placeholder:text-[#391400] placeholder:font-light' placeholder='Your email' />
-                <input type="text" className='border-2 border-[#F3D1BF] w-xl px-4 py-2 rounded placeholder:text-[#391400] placeholder:font-light' placeholder='Subject' />
-                <textarea placeholder='Message' className='border-2 border-[#F3D1BF] w-xl px-4 py-2 rounded placeholder:text-[#391400] placeholder:font-light' rows="5"></textarea>
+                <input type="text" className='border-2 border-[#F3D1BF] lg:w-xl w-80 px-4 py-2 rounded placeholder:text-[#391400] placeholder:font-light' placeholder='Your email' />
+                <input type="text" className='border-2 border-[#F3D1BF] lg:w-xl w-80 px-4 py-2 rounded placeholder:text-[#391400] placeholder:font-light' placeholder='Subject' />
+                <textarea placeholder='Message' className='border-2 border-[#F3D1BF] lg:w-xl w-80 px-4 py-2 rounded placeholder:text-[#391400] placeholder:font-light' rows="5"></textarea>
                 <button type='submit' className='bg-[#EF6D58] text-xl px-3 py-2 rounded font-medium text-white'>Submit now</button>
             </form>
         </div>

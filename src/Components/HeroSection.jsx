@@ -3,7 +3,7 @@ import Header from './Header'
 
 const HeroSection = () => {
   return (
-    <section className='bg-[#00003d] lg:h-svh pb-7 text-white w-full'>
+    <section className='bg-[#00003d] lg:h-svh pb-7 text-white w-full hero-section'>
         <Header />
 
         <div className='flex items-center flex-col-reverse lg:flex-row justify-center gap-7 lg:gap-40 lg:ml-28 lg:mt-28'>
@@ -22,7 +22,7 @@ const HeroSection = () => {
                 <div className='w-52 h-24 rounded-lg overflow-hidden bg-white hidden lg:absolute top-2/3 left-22 z-50 lg:flex px-1 gap-4 py-1  transform'>
                   <div className='bg-[#EF6D58] w-10 h-10 rounded-full'>
                   </div>
-                  <div className=' flex-1 flex flex-col justify-center gap-1'>
+                  <div className=' flex-1 flex flex-col justify-center animate-pulse gap-1'>
                     <span className='bg-gray-700/20 h-6 w-2/3 rounded-2xl'></span>
                     <span className='bg-gray-700/20 h-8 w-2/4 rounded-2xl'></span>
                     <span className='bg-gray-700/20 h-24 w-full rounded-md'></span>

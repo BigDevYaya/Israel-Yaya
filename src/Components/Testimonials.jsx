@@ -2,10 +2,10 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <section className=' flex items-center bg-[#fce7de] justify-center gap-4 flex-col py-7'>
+    <section id='testimonials' className=' flex items-center bg-[#fce7de] justify-center gap-4 flex-col py-7'>
         <h1 className='uppercase text-lg text-[#EF6D58] font-medium'>Testimonials</h1>
         <h1 className='text-6xl capitalize max-w-xl text-center text-[#391400] font-bold'>What my clients are saying</h1>
-        <div className='flex flex-wrap items-center justify-start mx-5 mt-7'>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center  mx-5 mt-7'>
             <div className='flex flex-col items-start gap-4 px-10 py-16 border border-[#F3D1BF] rounded-md'>
                 <p>⭐⭐⭐⭐⭐</p>
                 <p className='max-w-sm text-[#391400] text-sm leading-6 font-light'>
