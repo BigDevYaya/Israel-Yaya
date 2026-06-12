@@ -27,29 +27,6 @@
   transform: scaleX(1);
 }
 
-/* sticky header transition */
-
-/* #sticky-header {
-  transition: transform 0.5s cubic-bezier(.4,0,.2,1), opacity 0.5s cubic-bezier(.4,0,.2,1);
-  transform: translateY(-100%);
-  opacity: 0;
-  z-index: -1000;
-  position: fixed;
-  width: 100%;
-  /* position: sticky; 
-  top: -1000000px;
-  pointer-events: none;
-}
-#sticky-header.header-visible {
-    position: sticky;
-    top: 0;
-    right: 0;
-    width: 100%;
-  transform: translateY(0);
-  opacity: 1;
-  pointer-events: auto;
-} */
-
 
 
 /* Animations */
@@ -81,4 +58,32 @@
 
 .animate-fadeIn {
     animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes bounce-subtle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+
+.animate-bounce-subtle {
+  animation: bounce-subtle 2s ease-in-out infinite;
+}
+
+@keyframes stagger {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-stagger {
+  animation: stagger 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideInLeft {
+  0% { transform: translateX(-30px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+.animate-slideInLeft {
+  animation: slideInLeft 0.6s ease-out forwards;
 }
