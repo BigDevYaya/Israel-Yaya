@@ -22,13 +22,13 @@ const HeroSection = () => {
       <Header />
 
       <div className="flex flex-col max-w-[1200px] pt-10 mx-auto items-center justify-center w-full h-full overflow-hidden">
-        <p className="self-start md:-mb-16 text-2xl text-[#EF6D58] italic animate-fadeIn opacity-0 mx-5 md:mx-0">Hi, I'm</p>
+        <p className="self-start md:-mb-8 text-2xl text-[#EF6D58] italic animate-fadeIn opacity-0 mx-5 md:mx-0">Hi, I'm</p>
 
-        <h1 className="text-white self-start text-5xl md:self-auto md:text-[180px] font-extrabold uppercase mx-5 md:mx-0">
+        <h1 className="text-white self-start text-5xl md:self-center md:text-[180px] font-extrabold uppercase mx-5 md:mx-0">
           <StaggerText text="Israel Yaya" />
         </h1>
 
-        <p className="self-start md:self-end md:-mt-10 mb-5 text-[#EF6D58]  text-2xl mx-5 md:mx-0">
+        <p className="self-start md:self-end md:-mt-2 mb-5 text-[#EF6D58]  text-2xl mx-5 md:mx-0">
           <TypingText />
         </p>
 
